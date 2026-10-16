@@ -1,0 +1,105 @@
+{
+  "best_model": "Logistic Regression",
+  "final_variant": "tuned",
+  "best_params": {
+    "C": 0.001
+  },
+  "cv_best_auc": 0.5851146803806847,
+  "n_train": 80000,
+  "n_test": 20000,
+  "n_students": 100000,
+  "n_features": 21,
+  "feature_columns": [
+    "cgpa",
+    "branch",
+    "college_tier",
+    "internships_count",
+    "projects_count",
+    "certifications_count",
+    "coding_skill_score",
+    "aptitude_score",
+    "communication_skill_score",
+    "logical_reasoning_score",
+    "hackathons_participated",
+    "github_repos",
+    "linkedin_connections",
+    "mock_interview_score",
+    "attendance_percentage",
+    "backlogs",
+    "extracurricular_score",
+    "leadership_score",
+    "volunteer_experience",
+    "sleep_hours",
+    "study_hours_per_day"
+  ],
+  "numeric": [
+    "cgpa",
+    "internships_count",
+    "projects_count",
+    "certifications_count",
+    "coding_skill_score",
+    "aptitude_score",
+    "communication_skill_score",
+    "logical_reasoning_score",
+    "hackathons_participated",
+    "github_repos",
+    "linkedin_connections",
+    "mock_interview_score",
+    "attendance_percentage",
+    "backlogs",
+    "extracurricular_score",
+    "leadership_score",
+    "sleep_hours",
+    "study_hours_per_day"
+  ],
+  "categorical": [
+    "branch",
+    "college_tier",
+    "volunteer_experience"
+  ],
+  "class_balance": {
+    "Placed": 54459,
+    "Not Placed": 45541
+  },
+  "confusion_matrix": [
+    [
+      4988,
+      4120
+    ],
+    [
+      4718,
+      6174
+    ]
+  ],
+  "final_metrics": {
+    "Accuracy": 0.5581,
+    "Precision": 0.5997668544783369,
+    "Recall (Placed)": 0.5668380462724936,
+    "Recall (Not Placed)": 0.5476504172156346,
+    "F1-Score": 0.5828377230246389,
+    "ROC-AUC": 0.5850530162310648
+  },
+  "final_metrics_at_0.5": {
+    "Accuracy": 0.57005,
+    "Precision": 0.5777973807423492,
+    "Recall (Placed)": 0.7817664340800587,
+    "Recall (Not Placed)": 0.3168642951251647,
+    "F1-Score": 0.6644816418900464,
+    "ROC-AUC": 0.5850530162310648
+  },
+  "decision_threshold": 0.5445875,
+  "risk_thresholds": {
+    "low": 0.5155289610776687,
+    "high": 0.5779111535041234
+  },
+  "tuned_metrics": {
+    "Model": "Logistic Regression (tuned)",
+    "Accuracy": 0.57005,
+    "Precision": 0.5777973807423492,
+    "Recall (Placed)": 0.7817664340800587,
+    "Recall (Not Placed)": 0.3168642951251647,
+    "F1-Score": 0.6644816418900464,
+    "ROC-AUC": 0.5850530162310648
+  },
+  "svm_note": "SVM trained on a stratified 25,000-row subset for speed (RBF-SVM scales ~O(n^2))."
+}

@@ -1,0 +1,27 @@
+,importance
+num__mock_interview_score,0.07274139327089893
+num__coding_skill_score,0.07262976153481762
+num__logical_reasoning_score,0.07095677222967907
+num__communication_skill_score,0.07028210849829063
+num__aptitude_score,0.07009502061969813
+num__leadership_score,0.06916336248466252
+num__extracurricular_score,0.06897913549369006
+num__linkedin_connections,0.0675292258877966
+num__attendance_percentage,0.06701960541881274
+num__cgpa,0.06687383377871922
+num__sleep_hours,0.05796278014716881
+num__study_hours_per_day,0.057527279539265445
+num__github_repos,0.031277702970216384
+num__projects_count,0.02694364316652418
+num__certifications_count,0.025545606208456365
+num__internships_count,0.020970201020000308
+num__hackathons_participated,0.01897039986730696
+num__backlogs,0.014411642121124307
+cat__volunteer_experience_Yes,0.00965687886413251
+cat__college_tier_Tier 2,0.009509904468502401
+cat__college_tier_Tier 3,0.0078066451533140395
+cat__branch_IT,0.006580136512928561
+cat__branch_ECE,0.00530181984325101
+cat__branch_Mechanical,0.003867557749996893
+cat__branch_EEE,0.0037215863520630374
+cat__branch_Civil,0.0036759967986833737

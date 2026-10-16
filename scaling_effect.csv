@@ -1,0 +1,4 @@
+Model,Unscaled accuracy,Scaled accuracy
+Logistic Regression,0.5667,0.57085
+KNN,0.51965,0.53015
+Random Forest,0.5593,0.55935
